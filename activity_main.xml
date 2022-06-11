@@ -9,17 +9,47 @@
     tools:layout_editor_absoluteY="89dp">
 
 
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="64dp"
+        android:ems="10"
+        android:hint="Time"
+        android:inputType="textPersonName"
+        android:textColor="#8E24AA"
+        app:layout_constraintBottom_toTopOf="@+id/b1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
     <Button
         android:id="@+id/b1"
         android:layout_width="163dp"
         android:layout_height="0dp"
-        android:layout_marginTop="215dp"
-        android:layout_marginEnd="112dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="311dp"
         android:text="SET"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/e1"
+        app:layout_constraintTop_toBottomOf="@+id/e1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="133dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginBottom="88dp"
+        android:text="Event"
+        android:textColor="#5E35B1"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/e1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
 
 
